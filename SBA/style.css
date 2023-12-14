@@ -1,5 +1,21 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgba(96, 81, 45, 100);
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(96, 81, 45, 100);
+  font-family: "Alegreya", serif;
+}
+
+h1 {
+  font-size: 400;
+}
+
+#nav-bar {
+  width: 100vw;
+  height: 40px;
+  background-color: red;
+}
+
+img {
+    width: 30px;
+    
 }
