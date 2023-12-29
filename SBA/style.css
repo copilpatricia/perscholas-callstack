@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgba(96, 81, 45, 100);
+  background-color: #d6c5a7;
   font-family: "Alegreya", serif;
 }
 
@@ -12,10 +12,11 @@ h1 {
 #nav-bar {
   width: 100vw;
   height: 40px;
-  background-color: red;
+  background-color: #828e80;
 }
 
-img {
-    width: 30px;
+#cat-logo {
+    width: 35px;
+    padding: 2px;
     
 }
