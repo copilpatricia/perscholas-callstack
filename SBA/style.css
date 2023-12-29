@@ -5,9 +5,6 @@ body {
   font-family: "Alegreya", serif;
 }
 
-h1 {
-  font-weight: normal;
-}
 
 #nav-bar {
   width: 100vw;
@@ -16,9 +13,9 @@ h1 {
 }
 
 #cat-logo {
-    width: 35px;
-    padding: 2px;
-    
+  width: 35px;
+  padding: 2px;
+  
 }
 
 main {
@@ -28,22 +25,34 @@ main {
 
 #container-one {
   width: 300px;
-  height: 450px;
+  height: 480px;
   border: 5px solid #6c5a49;
   background-color: #846c5b;
   text-align: center;
   margin-top: 20px;
 } 
 
+h1 {
+  font-weight: normal;
+}
+
+#cat-type {
+  font-size: 18px;
+}
+
 #input {
   margin-top: 15px;
+  font-family: "Alegreya", serif;
+  font-size: 17px;
 }
 
 #btn-cat {
   margin: 15px 10px;
   background-color: #828e80;
   border: none;
+  padding: 10px;
   cursor: pointer;
   font-family: "Alegreya", serif;
-  font-size: 14px;
+  font-size: 18px;
+  border-radius: 60%;
 }
