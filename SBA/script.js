@@ -5,7 +5,7 @@ const div = document.getElementById("image-cat")
 
 button.addEventListener("click", () => {
     
-    fetch("https://api.thecatapi.com/v1/images/search?limit=7&api_key=live_riVAP14ATCGuCpjUmGmqbOGj8zyEiSVd5G17ScnvW2aNklOiXGTL6BxZ4SKlzxNR&breed_ids=beng,abys,awir")
+    fetch("https://api.thecatapi.com/v1/images/search?limit=7&api_key=live_riVAP14ATCGuCpjUmGmqbOGj8zyEiSVd5G17ScnvW2aNklOiXGTL6BxZ4SKlzxNR&breed_ids=beng,abys,awir,nebe")
     .then(response => response.json())
     .then(data => {
         
@@ -20,7 +20,7 @@ button.addEventListener("click", () => {
             foundMatch = true;
             console.log(item.url);
             div.innerHTML = `
-                <img src=${item.url} width = 500px height = 300px />
+                <img src=${item.url} width = 250px height = 200px  margin-top = 50px/>
             `
             break;
         }

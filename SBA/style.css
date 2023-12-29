@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  font-size: 400;
+  font-weight: normal;
 }
 
 #nav-bar {
@@ -19,4 +19,31 @@ h1 {
     width: 35px;
     padding: 2px;
     
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+#container-one {
+  width: 300px;
+  height: 450px;
+  border: 5px solid #6c5a49;
+  background-color: #846c5b;
+  text-align: center;
+  margin-top: 20px;
+} 
+
+#input {
+  margin-top: 15px;
+}
+
+#btn-cat {
+  margin: 15px 10px;
+  background-color: #828e80;
+  border: none;
+  cursor: pointer;
+  font-family: "Alegreya", serif;
+  font-size: 14px;
 }
